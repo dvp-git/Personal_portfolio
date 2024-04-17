@@ -12,7 +12,7 @@ const Navbar  = () =>
     const [active , setAcive] = useState('');
     const [toggle, setToggle] = useState(false);
     return (
-         <nav className={`${styles.paddingX} w-full  flex items-center  py-3 fixed  top-0 z-20 bg-primary bg-opacity-40`  }>
+         <nav className={`${styles.paddingX} w-full  flex items-center  py-3 fixed  top-0 z-20 bg-primary bg-opacity-80`  }>
              <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                  <Link to="/" className=' flex items-center gap-2' 
                  onClick={() => { setAcive('');
@@ -53,7 +53,7 @@ const Navbar  = () =>
                         </li>
                     ))}
                     </ul> */}
-                    <ul className=' sm:hidden bg-primary bg-opacity-70 justify-end items-start flex flex-col gap-4'>
+                    <ul className=' sm:hidden bg-primary bg-opacity-80 justify-end items-start flex flex-col gap-4'>
                     {navLinks.map((link) => (
                         <li key={link.id} className={`${active === link.title ? "hover:text-yellow-400" : "text-secondary" } hover:text-yellow-400 text-[5-px] font-poppins font-small `} onClick={()=> { 
                             setAcive(link.title)
