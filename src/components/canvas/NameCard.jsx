@@ -9,8 +9,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({isMobile}) => {
-  const computer = useGLTF("./desktop_pc/Name_card.glb");
+const NameCard = ({isMobile}) => {
+  const namecard = useGLTF("./desktop_pc/Name_card.glb");
   return (
     <mesh>
       <hemisphereLight intensity={5.5}  groundColor="black"/>
@@ -20,7 +20,7 @@ const Computers = ({isMobile}) => {
       
       
       <primitive 
-      object={computer.scene}
+      object={namecard.scene}
       // scale={isMobile? 0.7: 0.75}
       scale={isMobile? 0.7: 0.75}
       // position = {isMobile? [0, -3, -2.2]:[0, -3.25, -1.5]}
@@ -31,7 +31,7 @@ const Computers = ({isMobile}) => {
   );
 };
 
-const ComputersCanvas = () => {
+const NameCardCanvas = () => {
   // Setting up mobile UI
   const [ isMobile, setIsMobile] = useState(false); 
 
@@ -71,7 +71,7 @@ const ComputersCanvas = () => {
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI/ 2}
         />
-        <Computers isMobile={isMobile}/>
+        <NameCard isMobile={isMobile}/>
         </Suspense>
       <Preload all />
       </Canvas>
@@ -82,4 +82,4 @@ const ComputersCanvas = () => {
 
 
 
-export default ComputersCanvas;
+export default NameCardCanvas;

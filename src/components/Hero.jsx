@@ -2,7 +2,8 @@ import React from 'react'
 import { styles } from '../style';
 import { profile_pic }  from '../assets';
 import { useEffect, useRef } from 'react';
-
+import { NameCardCanvas } from './canvas';
+import  icons8star  from '../assets/icons8-star.gif';
 const Hero  = () => 
 {
     const text = `${`mg src={profile_pic} alt="profile_pic" style={styles.profile_pic} className=' flex rounded-full object-contain opacity-80 sm:w-[200px] w-[120px] mx-auto my-auto'/> A B C D E F G H I J K L M N O P Q R SDASD ASDAS DASD T U V W X
@@ -29,7 +30,7 @@ const Hero  = () =>
                 };
             }, [text]);
     return (
-        <section className='relative w-full h-screen mx-auto'>
+        <section className='relative w-full h-screen mx-auto  overflow-auto overscroll-y'>
            {/* <div className='absolute top-[80px] mx-auto flex md:flex-row flex-col  justify-items-center sm:px-10 px-auto my-auto gap-1 md:gap-4 max-2-7xl' > */}
           
             <div className={`${styles.paddingX} absolute top-[80px] max-2-7xl mx-auto flex md:flex-row flex-col items-start gap-5`}>
@@ -40,16 +41,16 @@ const Hero  = () =>
                 </div>
                 {/* <img src={profile_pic} alt="profile_pic" style={styles.profile_pic} className=' flex rounded-full object-contain opacity-80 sm:w-[200px] w-[120px] mx-auto my-auto'/> */}
                 <img src={profile_pic} alt="profile_pic" style={styles.profile_pic} className='object-contain rounded-full opacity-80 sm:w-[180px] w-[100px] sm:mx-auto mx-auto'/>
-
-                    <div ref={elementRef} className='flex flex-col  items-center mt-5  text-white'>asd
-                        
-                    </div>
-    
-           
-        </div>
-
-        
-
+                    <div ref={elementRef} className='flex flex-col  items-center mt-5  text-white' > 
+                </div>        
+            </div>
+            
+            {/* The navigation icon */}
+            <div className='absolute xs:bottom-10 bottom-20  w-full flex justify-center items-center'>
+                <a href='#about'>
+                    <img src={icons8star} alt="loading..." className='opacity-50' />
+                </a>
+            </div>
         </section>
     ) 
 }
