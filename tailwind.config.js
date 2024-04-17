@@ -21,7 +21,7 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/nature_color.jpg')",
+        "hero-pattern": "url('/src/assets/nature_color2.jpg')",
       },
     },
   },

@@ -36,7 +36,7 @@ import whatsapp from "./social/whatsapp.png";
 import linkedin from "./social/linkedin.png";
 import twitter from "./social/twitter.png";
 
-
+import profile_pic from "./profile_pic.png";
 
 
 export {
@@ -72,4 +72,5 @@ export {
   whatsapp,
   linkedin,
   twitter,
+  profile_pic,
 };
