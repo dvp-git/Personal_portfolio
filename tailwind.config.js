@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 
 
-module.exports = {
+export default {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
+        primary: "#13425c",
+        secondary: "#cffafe",
         tertiary: "#151030",
         "black-100": "#100d25",
         "black-200": "#090325",
@@ -21,7 +21,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/Starry_Night.jpg')",
+        "hero-pattern": "url('/src/assets/nature_color.jpg')",
       },
     },
   },

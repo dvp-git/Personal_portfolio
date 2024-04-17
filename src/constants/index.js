@@ -23,9 +23,47 @@ import {
     jobit,
     tripguide,
     threejs,
+    linkedin,
+    whatsapp,
+    facebook,
+    twitter,
+    github
   } from "../assets";
   
-  export const navLinks = [
+  // Github icon
+  // Facebook icon
+  // Instagram icon
+  // LinkedIn icon
+  // Twitter icon  
+  
+   const socialNavLinks = [
+    {
+      id: "linkedin",
+      icon: linkedin,
+      meta_url: "https://www.linkedin.com/in/darryl-vas-prabhu/"
+    },
+    {
+      id: "github",
+      icon: github,
+      meta_url: "https://github.com/dvp-git"
+    },
+    {
+      id: "whatsapp",
+      icon: whatsapp,
+      meta_url: "https://wa.me/+17169364735"
+    },
+    {
+      id: "facebook",
+      icon: facebook,
+      meta_url: "https://www.facebook.com/darrylvas.prabhu?mibextid=JRoKGi"
+    },
+    {
+      id: "twitter",
+      icon: twitter,
+      meta_url: "https://twitter.com/VasDarryl?t=hLTz3N8kZq843cH1mJ0RZg&s=08"
+    }]
+    
+ const navLinks = [
     {
       id: "about",
       title: "About",
@@ -262,4 +300,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export {  socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
