@@ -14,7 +14,7 @@ const ExperienceCard = ({exper, index}) => {
     return (
     <VerticalTimelineElement 
     contentStyle={{ background: '#03213873' , color: 'white' }} 
-    contentArrowStyle={{borderRight: '7px solid #232631'}} date={exper.date} iconStyle={{background:exper.iconBg}} 
+    contentArrowStyle={{borderRight: '7px solid #03213873'}} date={exper.date } dateClassName='text-secondary' iconStyle={{background:exper.iconBg}} 
     icon={
         // Make icons centered and full width and height
         <div className="flex justify-center rounded items-center w-full h-full">
@@ -35,7 +35,7 @@ const ExperienceCard = ({exper, index}) => {
 
         <ul className='mt-5 list-disc ml-5 space-y-2 '>
            {exper.points.map((point, index) => (
-            <li key={`exper-points-${index}`} className='text-secondary text-[16px] font-medium '>{point}</li>
+            <li key={`exper-points-${index}`} className='text-white-100 text-[14px] pl-1 tracking-wider '>{point}</li>
            ))}
         </ul>
     </VerticalTimelineElement>
@@ -61,4 +61,4 @@ return (
     ) 
 }
 
-export default SectionWrapper(Experience,"work");
+export default SectionWrapper(Experience,"timeline");
