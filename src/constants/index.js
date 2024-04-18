@@ -1,35 +1,45 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-    linkedin,
-    whatsapp,
-    facebook,
-    twitter,
-    github,
-    ai,
-    nmam,
-    ubuffalo,
-    dell,
-
-  } from "../assets";
+  ai,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  carrent,
+  jobit,
+  tripguide,
+  facebook,
+  whatsapp,
+  linkedin,
+  twitter,
+  profile_pic,
+  nmam,
+  dell,
+  ubuffalo,
+  python,
+  cppprog,
+  cprog,
+  flask,
+  postman,
+  postgresql,
+  mysql
+} from "../assets";
   
   // Github icon
   // Facebook icon
@@ -70,13 +80,31 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "timeline",
+      title: "Timeline",
     },
     {
-      id: "contact",
+      id:"projects",
+      title: "Projects",
+    },
+    {
+      id : "skills",
+      title:"Skills",
+    },
+    {
+      id: "resume",
+      title: "Resume",
+    },
+    {
+      id:"certifications",
+      title: "Certifications",
+    },
+
+    {
+      id:"contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -97,61 +125,116 @@ import {
       icon: creator,
     },
   ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
+        
+  const technologies = 
+    { lang: [{
+                name: "Python",
+                icon: python,
+              },
+              {
+                name: "JavaScript",
+                icon: javascript,
+              },
+              {
+                name: "C",
+                icon: cprog,
+              },
+              {
+                name: "C++",
+                icon: cppprog,
+              }],
+      frameworks : 
+          [{
+            name: "PyTorch",
+            // icon: pytorch,
+          },
+          {
+            name: "HuggingFace",
+            // icon: flask,
+          },
+          {
+            name: "LangChain",
+          }
+          ,{
+            name: "Flask",
+          },
+          {
+            name: "HTML5"
+          },
+            {
+            name: "CSS 3",
+            icon: css,
+            },
+            {
+              name: "jQuery",
+            }
+            ,{
+            name: "SQLalchemy",
+          },
+          {
+            name: "React JS",
+            icon: reactjs,
+            },
+            {
+              name: "Scikit-learn",
+              // icon: sklearn,
+            },  
+            {
+              name: "Numpy",
+              // icon: sklearn,
+            },
+            {
+              name: "Pandas",
+              // icon: sklearn,
+            },
+            {
+              name: "Matplotlb",
+              // icon: sklearn,
+            }
+          ],
+   database: [{
+                name: "MySQL",
+                icon: mysql,
+              },
+              {
+                name: "MongoDB",
+                icon: mongodb,
+              },
+              {
+                name: "PostgreSQL",
+                icon: postgresql,
+              },
+             ] ,
+    tools :[{
+              name: "Large Language Models"},
+              {
+                name:"Deep Learning",
+              },
+              {
+                name: "Azure"
+              },
+              {
+                name: "Postman",
+                icon: postman,
+              },
+              {
+                name: "Git",
+                icon: git,
+              },
+              {
+                name: "Wireshark"
+              },
+              {
+                name: "Storage Area Network",
+              },
+              {
+                name: "RESTful Web Services",
+              },
+              {
+                name: "Code Review",
+              },
+            ]
+          };
   
   const experiences = [
     {
@@ -171,7 +254,7 @@ import {
       company_name: "Dell EMC",
       icon: dell,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jul 2017 - Jun 2022",
       url_ : "https://www.dell.com/en-us",
       points: [
         "Collaborating with cross-functional teams including product managers, performance engineers and senior accounts managers to resolve high priority issues.",

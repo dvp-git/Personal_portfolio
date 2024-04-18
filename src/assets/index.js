@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import flask from "./tech/flask.png";
+import postman from "./tech/postman.png";
+import postgresql from "./tech/postgresql.png";
+
+import cprog from "./tech/c.png";
+import cppprog from "./tech/cpp.png";
+import mysql from "./tech/mysql.png";
 
 import ai from "./tech/ai.png";
 import backend from "./tech/backend.png";
@@ -82,4 +90,11 @@ export {
   nmam,
   dell,
   ubuffalo,
+  python,
+  cppprog,
+  cprog,
+  flask,
+  postman,
+  postgresql,
+  mysql
 };
