@@ -27,7 +27,8 @@ import {
     whatsapp,
     facebook,
     twitter,
-    github
+    github,
+    ai
   } from "../assets";
   
   // Github icon
@@ -80,19 +81,19 @@ import {
   
   const services = [
     {
+      title: "Software Engineer",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "AI Engineer",
+      icon: ai,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Technology Tinkerer",
       icon: creator,
     },
   ];

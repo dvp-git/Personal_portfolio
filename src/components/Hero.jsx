@@ -10,7 +10,9 @@ const Hero  = () =>
     {<br />}
     The image is moving because the text is being added to the div below it, which pushes the image up. To prevent this, you can use CSS to position the image and the div independently of each other.
     One way to do this is to use absolute positioning for the image and the div. Here's how you can modify your code:`}`
+    
 
+    //  Simulate typing 
     const elementRef = useRef('');
     useEffect(() => {
                 let i = 0;
@@ -29,6 +31,8 @@ const Hero  = () =>
                 elementRef.current.textContent = '';
                 };
             }, [text]);
+        
+    // Use overflow for smaller screens if the text exceeds length
     return (
         <section className='relative w-full h-screen mx-auto  overflow-auto overscroll-y'>
            {/* <div className='absolute top-[80px] mx-auto flex md:flex-row flex-col  justify-items-center sm:px-10 px-auto my-auto gap-1 md:gap-4 max-2-7xl' > */}
@@ -40,12 +44,14 @@ const Hero  = () =>
                 <p className={`${styles.heroSubText} mx-auto flex-row`}>Nice to meet you!</p>
                 </div>
                 {/* <img src={profile_pic} alt="profile_pic" style={styles.profile_pic} className=' flex rounded-full object-contain opacity-80 sm:w-[200px] w-[120px] mx-auto my-auto'/> */}
+
+                
                 <img src={profile_pic} alt="profile_pic" style={styles.profile_pic} className='object-contain rounded-full opacity-80 sm:w-[180px] w-[100px] sm:mx-auto mx-auto'/>
                     <div ref={elementRef} className='flex flex-col  items-center mt-5  text-white' > 
                 </div>        
             </div>
             
-            {/* The navigation icon */}
+            {/* The navigation animated icon */}
             <div className='absolute xs:bottom-10 bottom-20  w-full flex justify-center items-center'>
                 <a href='#about'>
                     <img src={icons8star} alt="loading..." className='opacity-50' />
