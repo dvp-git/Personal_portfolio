@@ -30,10 +30,10 @@ import creator from "./tech/creator.png";
 
 
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import dell from "./company/dell.png";
+import nmam from "./company/nmam.png";
+import ubuffalo from "./company/ubuffalo.jpg";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,10 +71,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -83,4 +79,7 @@ export {
   linkedin,
   twitter,
   profile_pic,
+  nmam,
+  dell,
+  ubuffalo,
 };
