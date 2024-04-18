@@ -13,12 +13,14 @@ import { fadeIn, textVariant } from '../utils/motion';
 const SkillCard = ({index, name, icon}) => {
      return (
         <Tilt className="xs:w-[150px] w-full"> 
-        <motion.div variants={fadeIn("right", "spring", "", 0.75)} className='w-full blue-yellow-gradient p-[1px] rounded-full shadow-lg  shadow-yellow-400/30'>
+        {/* Removed min-h-11 */}
+        {/* sm:min-h-11 h-fit  - 3d effect */}
+        <motion.div variants={fadeIn("right", "spring",0.5, 0.75)} className='w-full blue-yellow-gradient p-[1px] h-[10px]  sm:min-h-11  rounded-full shadow-lg  shadow-yellow-400/30'>
             <div options={{
                 max: 45,
                 scale:1,
-                speed:450
-            }} className='bg-tertiary rounded-full min-h-11 flex justify-evenly items-center flex-col'>
+                speed:100,
+            }} className='bg-tertiary rounded-full  flex justify-evenly items-center flex-col '>
                 {/* <img src={icon} alt={name} className='w-16 h-16 object-contain'/> */}
                 <h3 className='text-white text-[15px] font-bold text-center'>{name}</h3>
             </div>

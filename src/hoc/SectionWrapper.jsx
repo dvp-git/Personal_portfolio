@@ -23,6 +23,10 @@ const SectionWrapper = (Component, idName) => {
         );
     }
 }
-
+// .hash-span {
+//     margin-top: -100px;
+//     padding-bottom: 100px;
+//     display: block;
+//   }
 
 export default  SectionWrapper;

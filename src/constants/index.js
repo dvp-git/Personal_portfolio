@@ -188,7 +188,7 @@ import {
               // icon: sklearn,
             },
             {
-              name: "Matplotlb",
+              name: "Matplotlib",
               // icon: sklearn,
             }
           ],
@@ -205,11 +205,7 @@ import {
                 icon: postgresql,
               },
              ] ,
-    tools :[{
-              name: "Large Language Models"},
-              {
-                name:"Deep Learning",
-              },
+    tools :[
               {
                 name: "Azure"
               },
@@ -224,15 +220,25 @@ import {
               {
                 name: "Wireshark"
               },
+              { 
+                name:"Deep Learning",
+              },
+              {name: "Code Debugging"},
+
               {
-                name: "Storage Area Network",
+                name: "LLM",
               },
               {
-                name: "RESTful Web Services",
-              },
-              {
-                name: "Code Review",
-              },
+              name: "Storage Network",
+            },
+            {
+              name: "API"
+            },
+            { name : "Dcoumentation"},
+            {
+              name: "Teamwork"
+            }
+
             ]
           };
   
@@ -308,7 +314,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Sports Performance Pro",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -329,7 +335,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Retrieval Augmented Generation chatbot",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -350,7 +356,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Info-Extractor with Gemini pro",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -370,6 +376,133 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Personal Portfolio Website",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Multi-Client TCP Chat application",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Sentiment analysis using RNN, bi-RNN and LSTM",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Car Booking database using PostgreSQL",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "ABT and GBN Transport protocol development",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Encryption Decryption using pycryptodomex",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+
   ];
   
   export {  socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
