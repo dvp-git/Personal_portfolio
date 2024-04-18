@@ -14,3 +14,7 @@
 
 
 <a href="https://iconscout.com/icons/code" class="text-underline font-size-sm" target="_blank">Code</a> by <a href="https://iconscout.com/contributors/minimo" class="text-underline font-size-sm">dutopia</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> - Software
+
+
+<a href="https://iconscout.com/icons/dell" class="text-underline font-size-sm" target="_blank">Dell</a> by <a href="https://iconscout.com/contributors/icon-54" class="text-underline font-size-sm" target="_blank">Icon 54</a>
+- Dell Logo

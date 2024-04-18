@@ -15,10 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -28,7 +24,11 @@ import {
     facebook,
     twitter,
     github,
-    ai
+    ai,
+    nmam,
+    ubuffalo,
+    dell,
+
   } from "../assets";
   
   // Github icon
@@ -155,55 +155,43 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Master of Science in Computer Science and Engineering",
+      company_name: "Univeristy at Buffalo, The State University of New York",
+      icon: ubuffalo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2022 - Feb 2024",
+      url_ : "https://www.buffalo.edu/",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Design and develop 'Sports workout' web application using Web Technologies HTML, CSS, Javascript, Figma, Bootstrap, Flask, MySQL and AWS hosting for tracking of workout by Coaches to Athletes.",
+        "Continuous exposure to deep learning algorithms RNN, LSTM, GRU, CNN, GAN, Transformer models, BERT, GPT-2, Sentence Transformers."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Technical Support Engineer 2",
+      company_name: "Dell EMC",
+      icon: dell,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
+      url_ : "https://www.dell.com/en-us",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborating with cross-functional teams including product managers, performance engineers and senior accounts managers to resolve high priority issues.",
+        "Performing analysis of slow IO read write operations due to CPU utilization, disk I/O latency, network latency, queue depth, multi-pathing, CRC errors.",
+        "Root Cause Analysis of outages and business impact cases.",
+        "Debugging product issues with escalationg engineering team and engaging in product enhancements",
+        "Deliver training to new employees on Cloud Computing and Storage Area Network technologies.",
+        "Publish knowledgebase and documentation on Dell Support Services for positive customer experience and business impact."
+      ],
+    },
+    {
+      title: "Bachelor of Engineering in Electronics and Communication Engineering",
+      company_name: "Visvesvaraya Technological University, N.M.A.M Institute of Technology, Nitte",
+      icon: nmam,
+      iconBg: "#383E56",
+      date: "Sep 2013 - May 2017",
+      url_ : "https://nmamit.nitte.edu.in/index.php",
+      points: [
+        "Experimentation on Logic Design, FPGA and integrated circuit design.",
+        "Design an android based remote control car using Raspberry Pi and Python.",
       ],
     },
   ];
