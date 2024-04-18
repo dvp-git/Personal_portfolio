@@ -35,7 +35,7 @@ const ExperienceCard = ({exper, index}) => {
 
         <ul className='mt-5 list-disc ml-5 space-y-2 '>
            {exper.points.map((point, index) => (
-            <li key={`exper-points-${index}`} className='text-white-100 text-[14px] pl-1 tracking-wider '>{point}</li>
+            <li key={`exper-points-${index}`} className='text-white-100 text-[14px] p1-1 tracking-wider'>{point}</li>
            ))}
         </ul>
     </VerticalTimelineElement>
@@ -46,8 +46,8 @@ const ExperienceCard = ({exper, index}) => {
 const Experience  = () => {
 return (
         <><motion.div variants={textVariant()}>
-            <p className={styles.sectionSubText}>My Journey</p>
-            <h2 className={styles.sectionHeadText}>{`>> Education & Professional Experience`}</h2>
+            <p className={`${styles.sectionSubText}`}>My Journey</p>
+            <h2 className={`${styles.sectionHeadText}`} >{`>> Education & Professional Experience`}</h2>
             </motion.div>
 
             <div className='mt-20 flex flex-col'>
