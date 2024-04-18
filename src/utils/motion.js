@@ -1,3 +1,21 @@
+
+
+// {
+//   variantName1: {
+//     property1: value,
+//     property2: value,
+//     // ...
+//     transition: {
+//       // transition properties...
+//     },
+//   },
+//   variantName2: {
+//     // ...
+//   },
+//   // ...
+// }
+
+
 export const textVariant = (delay) => {
     return {
       hidden: {

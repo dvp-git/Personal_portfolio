@@ -1,8 +1,8 @@
 import logo from "./logo1.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
+// import backend from "./backend.png";
+// import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
+// import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+
+import ai from "./tech/ai.png";
+import backend from "./tech/backend.png";
+import web from "./tech/web.png";
+import creator from "./tech/creator.png";
+
+
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -40,6 +49,7 @@ import profile_pic from "./profile_pic.png";
 
 
 export {
+  ai,
   logo,
   backend,
   creator,
