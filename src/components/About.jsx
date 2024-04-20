@@ -15,14 +15,14 @@ import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({index, title, icon}) => {
      return (
-        <Tilt className="xs:w-[250px] w-40"> 
-        <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className='w-full blue-yellow-gradient p-[1px] rounded-[20px] shadow-lg  shadow-yellow-400/30'>
+        <Tilt className="xs:w-[250px] w-40 flex"> 
+        <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className='w-32 sm:w-full blue-yellow-gradient p-[1px] rounded-[20px] shadow-lg  shadow-yellow-400/30 '>
             <div options={{
                 max: 45,
                 scale:1,
                 speed:450
-            }} className='bg-tertiary rounded-[20px] px-12 py-5 min-h-[280px] flex justify-evenly items-center flex-col'>
-                <img src={icon} alt={title} className='w-16 h-16  object-contain'/>
+            }} className='bg-tertiary rounded-[20px] px-1 py-5 sm:min-h-[250px] h-[100px] flex justify-evenly items-center flex-col'>
+                <img src={icon} alt={title} className='sm:w-16 w-10 h-16  object-contain'/>
                 <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
             </div>
 

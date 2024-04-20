@@ -10,51 +10,54 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 // Making animation for the Project cards
-// On small screens aspect ratio issue. Workaround setting opcacity to 60%
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, }) => {
   return (
     // Rendering on all screens
-    <motion.div variants={fadeIn("up","spring", index * 0.5, 0.75)} >
+    <motion.div variants={fadeIn("up","spring", index * 0.5, 0.75)} className="flex flex-wrap">
+      
+      {/* Display of the cards container */}
 
-  
-
-{/* // Screen size below 450 having issue with titl effect - workaround opacity pre-loaded for now */}
+{/* 
+Working
 <Tilt 
-      options={{max:15, scale:1, speed:450}}
-      className="bg-tertiary   sm:p-1 p-1 w-[280px] xs:w-[300px] sm:w-[360px] shadow-lg  shadow-yellow-400/30 rounded-2xl"
-      >
+      options={{max:45, scale:1, speed:450}}
+      className="bg-tertiary sm:p-3 p-1 rounded-2xl sm:w-[360px] w-full shadow-lg  shadow-yellow-400/30"
+      >  */}
 
-        <div className="relative w-full xs:w-[full] sm:w-[full] xs:h-[300px]">
-          <img src={image} alt={name} className="w-full xs:w-[full] sm:w-[360px] xs:h-[300px] rounded-2xl"/>    
 
+      <Tilt 
+      options={{max:45, scale:1, speed:450}}
+      className="bg-tertiary sm:p-3 p-1 rounded-2xl sm:w-[360px] w-full shadow-lg  shadow-yellow-400/30"
+      > 
+      <div className="relative w-full  sm:h-[230px]">
+        <img src={image} alt={name} className="w-[200px] flex justify-center xs:w-full h-full object-cover rounded-2xl"/>
+        
+      
 
     {/* // Making the Github icons on top of each card */}
-           <div className="absolute inset-0 flex justify-end m-3 card-img_hover ">
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
                 <div onClick={()=> window.open (source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-                  <img src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
+                  <img src={github} alt="github" className="2-1/2 h-1/2 object-contain"/>
                 </div>
                 
                 <div onClick={()=> window.open (source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-                  <img src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
+                  <img src={github} alt="github" className="2-1/2 h-1/2 object-contain"/>
                 </div>
-          </div>  
-        </div>   
+            </div>
+        </div>
 
       {/* Name and description - Issue detected smaller screens*/}
-      <div className="mt-1">
-        <h3 className="text-white font-bold object-contain">{name}</h3>          
-        <p className="my-2 text-secondary text-[14px] object-contain">{description}</p>
-      </div> 
-      
+      {/* <div className="mt-5 ">
+        <h3 className="text-white text-center font-bold sm:text-[24px]">{name}</h3>          
+        <p className="mt-2 text-secondary sm:text-[14px]">{description}</p>
+      </div>  */}
 
       {/* Hashtags for topics - Change color: Make common for same tags */}
-          <div className="mt-0 space-x-3 space-y-3">
+      {/* <div className="mt-4 ">
         {tags.map((tag) => (
-          <button type="button" key={tag.name} className={`${tag.color} border border-cyan-950 border-spacing-2 p-1 rounded-full `}>{ tag.name }</button>))}
-        </div>     
-
-  
-      </Tilt> 
+          <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>))}
+      </div>  */}
+      </Tilt>
     </motion.div>
   )
 }
@@ -86,7 +89,7 @@ Document Object Model (DOM) content of the loaded web page in the browser.
     </div>
 
   {/* Wrapper for project cards */}
-    <div className="flex flex-wrap gap-7 ">
+    <div className="mt-30 flex flex-wrap gap-7">
     {projects.map((project, index) => (
       <ProjectCard
         key={`project-${index}`}

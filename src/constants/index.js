@@ -316,20 +316,52 @@ import {
     {
       name: "Sports Performance Pro",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A responsive web application that enables easy access for coaches to track their athletes performances. The application allows coaches to search for athletes, view their performance, and track their progress. The application also allows coaches to view their profile and edit their profile. Design and development followed Agile methodology to improve the efficiency of the application and continous improvement. Technologies used: HTML, CSS, Javascript , jQuery, Bootstrap , DataTables , Async/Await and fetch API for the front-end. The back-end was developed using Flask framework , SQLAlchemy ORM, Postman and MySQL database. Application was delivered to client as part of the capstone project and among top 10 projects for Fall 2023 MS 611 Project Development course at University at Buffalo.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "HTML",
+          color: "yellow-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "CSS",
+          color: "yellow-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "Javascript",
+          color: "yellow-text-gradient",
         },
+        {
+          name: "Bootstrap",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Flask",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "SQLAlchemy",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Postman",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Peer Code Review",
+          color: "yellow-text-gradient",
+        }
       ],
       image: carrent,
       source_code_link: "https://github.com/",
@@ -337,19 +369,39 @@ import {
     {
       name: "Retrieval Augmented Generation chatbot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A personal PDF assistant using Retrieval Augmented Generation (RAG) algorithm to extract information from PDF's and server as a knowledge base for your generative AI chat bot. I used all-mpnet-base-v2 for the tokenization of query and pdf text documents. Searching of similar documents is performed using Meta's FAISS library. The generator uses mistral-7b-instruct-v0.2 as the large language model for generation of answers. Scope for future would be to create a gradio chat application using API's to GPU's for retrieval of encodings and decoding of answers.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Generative AI",
+          color: "yellow-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "PyTorch",
+          color: "yellow-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "HuggingFace Transformers",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Large Language Model",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Numpy",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Jupyter Notebook",
+          color: "yellow-text-gradient",
         },
       ],
       image: jobit,
@@ -358,61 +410,56 @@ import {
     {
       name: "Info-Extractor with Gemini pro",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web application that analyzes and extracts information from uploaded images using Google's latest version of Gemini. Users can upload an image and type in a prompt for either summarization , extraction or generation task. I used Gemini pro vision API from google for running the inference and deployed the application on streamlit's workspace. The site is live at https://gemini-information-extractor-9hvvirtqtzkvdt7ypmv9ju.streamlit.app/",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Gemini Vision API",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "LLM",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Generative AI",
+          color: "yellow-text-gradient",
         },
+        {
+          name: "Streamlit",
+          color: "yellow-text-gradient",
+        }
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://gemini-information-extractor-9hvvirtqtzkvdt7ypmv9ju.streamlit.app/",
     },
     {
       name: "Personal Portfolio Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Development of personal portfolio website using React, Javascript, Tailwind CSS, and certain functionalities from Three.JS. Designed my 3d model ( gilf) NameCard file using Blender and Photoshop for intergration into the website using react-three-fiber and react-three-drei utilities.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Javascript",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "React JS",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Multi-Client TCP Chat application",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Three.js",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Tailwind CSS",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Photoshop",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Blender",
+          color: "yellow-text-gradient",
         },
       ],
       image: tripguide,
@@ -421,40 +468,19 @@ import {
     {
       name: "Sentiment analysis using RNN, bi-RNN and LSTM",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Implementation of a sentiment analysis on IMDB Dataset using RNN, bi-RNN and LSTM. PyTorch was used as the framework for the project. The models were trained and tested on the IMDB Dataset using Googble Collab notebooks.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Deep Learning",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "PyTorch",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Car Booking database using PostgreSQL",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Google Collab",
+          color: "yellow-text-gradient",
         },
       ],
       image: tripguide,
@@ -463,19 +489,40 @@ import {
     {
       name: "ABT and GBN Transport protocol development",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Simulation of ABT and GBN Transport protocol using C. The protocol was developed and tested using for various levels of loss compression ratios. Code was developed using the starter code provided by the course.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "C programming",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Network Programming",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Computer Networking",
+          color: "yellow-text-gradient",
+        }
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Multi-Client TCP Chat application",
+      description:
+        "A TCP command line client server application using Socket Programming in C. Clients can connect ti the Server and send messages to clients and the server. Blocking and Broadcasting features was also included. Select system call was used on the server to keep track of incoming connections via file descriptors. Code was developed using the starter code provided by the course.",
+      tags: [
+        {
+          name: "C programming",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Socket Programming",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Computer Networking",
+          color: "yellow-text-gradient",
         },
       ],
       image: tripguide,
@@ -484,25 +531,45 @@ import {
     {
       name: "Encryption Decryption using pycryptodomex",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Development of scripting application to test the reposne time of encryption and decryption algorithms. The algorithms tested were RSA, AES and DES. A script was developed on Ubuntu for the same.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Python",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Linux",
+          color: "yellow-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
-
+    {
+      name: "Car Booking database using PostgreSQL",
+      description:
+        "Developed a Car Booking database system using PostgreSQL. In order to keep up with industry standards, the database was normalized to Boyce Codd Normal Form. All functional dependencies were taken into account for normalization.",
+      tags: [
+        {
+          name: "PostgreSQL",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "SQL",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Database",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    }, 
   ];
   
   export {  socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };

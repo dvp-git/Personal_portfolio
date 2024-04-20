@@ -9,7 +9,7 @@ import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
 
-
+// shadow-yellow-400/30
 const ExperienceCard = ({exper, index}) => {
     return (
     <VerticalTimelineElement 
@@ -47,7 +47,7 @@ const Experience  = () => {
 return (
         <><motion.div variants={textVariant()}>
             <p className={`${styles.sectionSubText}`}>My Journey</p>
-            <h2 className={`${styles.sectionHeadText}`} >{`>> Education & Professional Experience`}</h2>
+            <h2 className={`${styles.sectionHeadText} `} >{`>> Education & Professional Experience`}</h2>
             </motion.div>
 
             <div className='mt-20 flex flex-col'>
