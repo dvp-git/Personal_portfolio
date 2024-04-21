@@ -1,8 +1,6 @@
 import logo from "./logo1.svg";
-// import backend from "./backend.png";
-// import creator from "./creator.png";
+
 import mobile from "./mobile.png";
-// import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -35,9 +33,6 @@ import web from "./tech/web.png";
 import creator from "./tech/creator.png";
 
 
-
-
-
 import dell from "./company/dell.png";
 import nmam from "./company/nmam.png";
 import ubuffalo from "./company/ubuffalo.jpg";
@@ -55,6 +50,21 @@ import twitter from "./social/twitter.png";
 
 import profile_pic from "./profile_pic.png";
 
+
+import azure from "./certifications/azure.png";
+import databricks from "./certifications/databricks.png";
+import dellva from "./certifications/dellva.png";
+import dellvi from "./certifications/dellvi.png";
+import freecodecamp from "./certifications/freecodecamp.png";
+import intel from "./certifications/intel.png";
+import ism from "./certifications/ism.png";
+import jovian from "./certifications/jovian.png";
+import mongodb_ from "./certifications/mongodb.png";
+import networking from "./certifications/networking.png";
+import postman_ from "./certifications/postman.png";
+import coursera from "./certifications/coursera.png";
+import  view_ from "./certifications/view_.png";
+import download_ from "./certifications/download_.png";
 
 export {
   ai,
@@ -96,5 +106,19 @@ export {
   flask,
   postman,
   postgresql,
-  mysql
+  mysql,
+  azure,
+  databricks,
+  dellva,
+  dellvi,
+  freecodecamp ,
+  intel,
+  ism,
+  jovian,
+  mongodb_,
+  networking,
+  postman_,
+  coursera,
+  download_,
+  view_,
 };

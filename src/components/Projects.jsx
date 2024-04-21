@@ -10,22 +10,23 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 // Making animation for the Project cards
-// On small screens aspect ratio issue. Workaround setting opcacity to 60%
+// #ISSUE: On small screens aspect ratio issue. Workaround setting opcacity to 60%
+
+// #FIXED: Fixed with attributes: initial="hidden" animate="show"
+    
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, }) => {
   return (
     // Rendering on all screens
-    <motion.div variants={fadeIn("up","spring", index * 0.5, 0.75)} >
+    <motion.div initial="hidden"
+    animate="show" variants={fadeIn("up","spring", index * 0.5, 0.75)} className="bg-tertiary   sm:p-1 p-1  w-full xs:w-[300px] sm:w-[360px] shadow-lg   shadow-yellow-400/40 rounded-2xl" >
 
   
 
 {/* // Screen size below 450 having issue with titl effect - workaround opacity pre-loaded for now */}
 <Tilt 
-      options={{max:15, scale:1, speed:450}}
-      className="bg-tertiary   sm:p-1 p-1 w-[280px] xs:w-[300px] sm:w-[360px] shadow-lg  shadow-yellow-400/30 rounded-2xl"
-      >
-
-        <div className="relative w-full xs:w-[full] sm:w-[full] xs:h-[300px]">
-          <img src={image} alt={name} className="w-full xs:w-[full] sm:w-[360px] xs:h-[300px] rounded-2xl"/>    
+      options={{max:15, scale:1, speed:450}} className="w-full h-full">
+        <div className="relative">
+          <img src={image} alt={name} className="w-full h-full rounded-2xl"/>    
 
 
     {/* // Making the Github icons on top of each card */}
@@ -73,7 +74,8 @@ const Projects = () => {
     </motion.div>
 
     <div className="w-full flex">
-    <motion.p variants={fadeIn("", "",0.1, 1) } className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]">
+    <motion.p variants={fadeIn("", "",0.1, 1) } initial="hidden"
+    animate="show" className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]">
     It works in React apps because the code is transpiled before it's loaded into the
 browser. Therefore, you won't find that import statement in the final JavaScript
 code that's executed in the browser. Instead, during the transpilation process, the
@@ -86,7 +88,7 @@ Document Object Model (DOM) content of the loaded web page in the browser.
     </div>
 
   {/* Wrapper for project cards */}
-    <div className="flex flex-wrap gap-7 ">
+    <div className="flex flex-wrap gap-7 justify-center">
     {projects.map((project, index) => (
       <ProjectCard
         key={`project-${index}`}

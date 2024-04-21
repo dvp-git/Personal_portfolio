@@ -19,6 +19,7 @@ export default {
       },
       screens: {
         xs: "450px",
+        xss: "375px"
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/nature_color3.jpg')",
