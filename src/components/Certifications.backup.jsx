@@ -14,23 +14,18 @@ const Certificate = ({index, name, description, img_, url_,date }) => {
      return (
                 /* Removed min-h-11 *
         /* sm:min-h-11 h-fit  - 3d effect */
+        // <div className="bg-tertiary sm:p-1 p-1 w-[280px] xs:w-[300px] sm:w-[360px] shadow-lg  shadow-yellow-400/30 rounded-2xl"> 
 
-
-        // Always include initial and animate attributes 
-        <motion.div    initial="hidden"
-        animate="show" variants={fadeIn("right", "spring",0.5, 0.75)} >
+        <motion.div variants={fadeIn("right", "spring",0.5, 0.125)} className='sm:p-1 p-1  md:w-[300px] w-[200px] shadow-lg  shadow-yellow-400/30 rounded-2xl '>
             <div options={{
                 max: 45,
                 scale:1,
                 speed:450,
-            }} className='bg-tertiary  shadow-yellow-400/40 rounded-2xl shadow-lg  w-[100%]  sm:w-[320px] gap-3  h-full p-1 justify-center  flex flex-wrap text-center text-secondary'>
-        
-
-
+            }} className='bg-tertiary flex flex-wrap gap-3 px-1 py-1 rounded-2xl h-full w-full justify-center text-center text-secondary'>
                 {/* <img src={img_} alt={name} className='w-16 h-16 object-contain'/>
                 <h3 className='text-white text-[15px] font-bold text-center'>{name}</h3> */}
 
-                <div className="relative">
+                <div className="relative w-full xs:w-[full] px-1 py-1 sm:w-[full] xs:h-[300px]">
                     
                     <img src={img_} alt={name} className="rounded-2xl w-full h-full"/>
 
@@ -75,7 +70,7 @@ const Certifications  = () =>
 
 
         <p className='text-white'>Certifications I earned over the course of my learning</p>
-            <div className='flex flex-wrap gap-10 justify-center '>
+            <div className='flex flex-wrap gap-10 '>
             
             {certifications.map((certs, index) => (
                 <Certificate key={certs.name} index={index} { ...certs}/>

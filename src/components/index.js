@@ -10,6 +10,9 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Certifications from "./Certifications";
 import Resume from "./Resume"
+
+
+import Testing from "./Testing";
 export {
   Hero,
   Navbar,
@@ -26,4 +29,5 @@ export {
   StarsCanvas,
   Certifications,
   Resume,
+  Testing,
 };

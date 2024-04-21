@@ -38,7 +38,19 @@ import {
   flask,
   postman,
   postgresql,
-  mysql
+  mysql,
+  azure,
+  databricks,
+  dellva,
+  dellvi,
+  freecodecamp ,
+  intel,
+  ism,
+  jovian,
+  mongodb_,
+  networking,
+  postman_,
+  coursera
 } from "../assets";
   
   // Github icon
@@ -47,7 +59,7 @@ import {
   // LinkedIn icon
   // Twitter icon  
   
-   const socialNavLinks = [
+const socialNavLinks = [
     {
       id: "linkedin",
       icon: linkedin,
@@ -312,6 +324,108 @@ import {
     },
   ];
   
+
+  const certifications = [
+    {
+      name: "Microsoft Certified: Azure Fundamentals",
+      description:
+        "A cloud computing certification that teaches you the fundamentals of the Azure cloud platform.",
+      img_ : azure,
+        url_ : "https://learn.microsoft.com/api/credentials/share/en-us/darrylvp/6C91D218F66E876F?sharingId=5028B3A4CA1E8AB7",
+        date_: "December 24, 2023",
+    },
+    {
+      name: "Intel Certified Developer - MLOps Professional",
+      description:
+        "Learn the process of developing, deploying, and managing machine learning models in production",
+      img_ : intel,
+        url_ : "https://www.credly.com/badges/76c48263-6607-4f19-9c56-f0f190869a2d/",
+        date_: "December 31, 2023 - December 31, 2026",
+    },
+    {
+      name: "MongoDB Associate Developer",
+      description:
+        "Learn to effectively use MongoDB NoSQL database.",
+      img_ : mongodb_,
+        url_ : "https://www.credly.com/badges/4b34d9ef-82bf-422a-bbbf-f51a35c6f3e5",
+        date_: "January 24, 2024",
+    },
+    {
+      name: "Postman API Fundamentals Student Expert",
+      description:
+        "Learn the process of developing and testing APIs using Postman.",
+      img_ : postman_,
+        url_ : "https://badgr.com/public/assertions/7bpB-dezQVeZELUjBQjNlw?identity__email=darrylvasprabhu@gmail.com",
+        date_: "Dec 30, 2023",
+    },
+    {
+      name: "Databricks Academy Accreditation - Generative AI Fundamentals",
+      description:
+        "Beginner friendly introduction to Generative AI and large language models.",
+      img_ : databricks,
+        url_ : "https://credentials.databricks.com/8fa1e56a-4621-49db-8daf-2ec50e983f33#gs.88nk92",
+        date_: "April 7, 2024 - April 7, 2026",
+    },
+    {
+      name: "Dell Technologies: Associate - Networking Version 1.0",
+      description:
+        "Comprehensive understanding of the network architecture, protocols, and services provided by Dell Technologies.",
+      img_ : networking,
+        url_ : "https://www.credly.com/badges/797ede7f-b1b6-472f-98a3-f04592977630",
+        date_: "March 18, 2021",
+    },
+    {
+      name: "Dell Technologies: Associate - Information Storage and Management Version 3.0",
+      description:
+        "Understanding of technology behdind data center infrastructure and services including business continuity, data storage, and data management.",
+      img_ : ism,
+        url_ : "https://www.credly.com/badges/33136a81-b03a-4eca-a0c0-776b65776dc0",
+        date_: "July 29, 2017",
+    },
+    {
+      name: "Dell Technologies: Specialist - Implementation Engineer, VPLEX Version 2.0",
+      description:
+        "Expertise in the deployment of Storage area netowrk solution VPLEX systems, including installation, configuration, troubleshooting and management architecture.",
+      img_ : dellvi,
+        url_ : "https://www.credly.com/badges/52b8bc79-2aa3-4ba7-bd34-ff4bd8eb1b44",
+        date_: "January 29, 2019",
+    },
+    {
+      name: "Dell Technologies: Specialist - Systems Administrator, VPLEX Version 2.0",
+      description:
+        "Expertise in the deployment of Storage area netowrk solution VPLEX systems, including management and operations of VPLEX high availabilty storage solution.",
+      img_ : dellva,
+        url_ : "https://www.credly.com/badges/822c878d-0662-41e1-853c-9e006e95342b",
+        date_: "June 04, 2022",
+    },
+    {
+      name: "freeCodeCamp: Data Analysis with Python",
+      description:
+        "Understanding process involved in data preparation and transformation using Python, Numpy and Pandas.",
+      img_ : freecodecamp,
+        url_ : "https://www.freecodecamp.org/certification/darryl_vp/data-analysis-with-python-v7",
+        date_: "October 14, 2021",
+    },
+    {
+      name: "Jovian: Data Structures and Algorithms in Python",
+      description:
+        "Introduction to data structures and algorithms in Python",
+      img_ : jovian,
+        url_ : "https://jovian.ai/certificate/MFQTIOBSGA",
+        date_: "April 27, 2021",
+    },
+    {
+      name: "Coursera: Data Science Math Skills",
+      description:
+        "An understanding of essential mathematics required for data science.",
+      img_ : coursera,
+        url_ : "https://www.coursera.org/account/accomplishments/verify/Y4J8Z8VRXN43",
+        date_: "January 15, 2024",
+    },
+  ]
+
+
+
   const projects = [
     {
       name: "Sports Performance Pro",
@@ -572,4 +686,4 @@ import {
     }, 
   ];
   
-  export {  socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
+  export {  certifications, socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
