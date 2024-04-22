@@ -5,14 +5,13 @@ import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import Feedbacks from "./Feedbacks";
+import Awards from "./Awards";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Certifications from "./Certifications";
 import Resume from "./Resume"
+import Footer from "./Footer"
 
-
-import Testing from "./Testing";
 export {
   Hero,
   Navbar,
@@ -20,7 +19,7 @@ export {
   Tech,
   Experience,
   Projects,
-  Feedbacks,
+  Awards,
   Contact,
   CanvasLoader,
   EarthCanvas, 
@@ -29,5 +28,5 @@ export {
   StarsCanvas,
   Certifications,
   Resume,
-  Testing,
+  Footer,
 };

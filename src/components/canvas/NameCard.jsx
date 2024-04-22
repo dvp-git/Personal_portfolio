@@ -57,7 +57,7 @@ const NameCardCanvas = () => {
 
     <Canvas 
     frameloop="demand"
-    shadows
+    shadows 
     // camera={{position: [20, 3, 5], fov: 25}}
     camera={
       {position: [10, 3, -30], fov: isMobile? 5: 20}}

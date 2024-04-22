@@ -50,7 +50,18 @@ import {
   mongodb_,
   networking,
   postman_,
-  coursera
+  coursera,
+  award1,
+  award2,
+  award3,
+  award4,
+  award5,
+  award1_pdf,
+  award2_pdf,
+  award3_pdf,
+  award4_pdf,
+  award5_pdf,
+  
 } from "../assets";
   
   // Github icon
@@ -111,7 +122,10 @@ const socialNavLinks = [
       id:"certifications",
       title: "Certifications",
     },
-
+    {
+      id:"dell_awards",
+      title: "Awards",
+    },
     {
       id:"contact",
       title: "Contact",
@@ -426,6 +440,51 @@ const socialNavLinks = [
 
 
 
+
+const dell_awards = [
+    {
+      name: "Dell Technologies: Cheers",
+      description: "Customer satisfaction award",
+      img_ : award1,
+      pdf_ : award1_pdf,
+        date_ : "July 24, 2019",
+    },
+    {
+      name: "Dell Technologies: Bravo",
+      description:
+        "Saving the day for our customer",
+      img_ : award2,
+      pdf_ : award2_pdf,
+        date_: "March 25, 2020",
+    },
+    {
+      name: "Dell Technologies: Bravo",
+      description:
+        "Outstanding support",
+      img_ : award3,
+      pdf_ : award3_pdf,
+        date_: "March 25, 2020",
+    },
+    {
+      name: "Dell Technologies: Cheers",
+      description:
+        "Customer Excellence",
+      img_ : award4,
+      pdf_ : award4_pdf,
+        date_: "April 06, 2020",
+    },
+    {
+      name: "Dell Technologies: Cheers",
+      description:
+        "Exceptional customer service",
+      img_ : award5,
+      pdf_ : award5_pdf,
+        date_: "January 19, 2021",
+    }];
+
+
+
+
   const projects = [
     {
       name: "Sports Performance Pro",
@@ -686,4 +745,4 @@ const socialNavLinks = [
     }, 
   ];
   
-  export {  certifications, socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
+  export {   dell_awards, certifications, socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
