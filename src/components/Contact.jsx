@@ -3,6 +3,7 @@ import { useState , useRef } from 'react';
 import { motion} from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
+import { socialNavLinks } from '../constants';
 import { NameCardCanvas } from './canvas';
 import {styles } from '../style';
 import { SectionWrapper } from "../hoc";
@@ -127,6 +128,13 @@ const Contact = () =>  {
             {loading? 'Sending...': 'Send'}
           </button>
         </form>
+        <ul className='list-none flex flex-row mt-4 justify-center gap-10'>
+                    {socialNavLinks.map((link) => (
+                        <li key={link.meta_url}>
+                        <a href={`${link.meta_url}`} target="_blank" rel="noopener noreferrer"><img src={`${link.icon}`} className="w-13 h-6 object-contain flex  "/></a>
+                        </li>
+                    ))}
+                </ul>
       </motion.div>
       
       {/* // Card Canvas rendering */}
@@ -135,6 +143,7 @@ const Contact = () =>  {
     className="sm:flex-1 sm:h-auto md:h-auto h-[500px]"> 
 
         <NameCardCanvas / >
+
         </motion.div>
 
     </div>
