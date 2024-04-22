@@ -319,32 +319,6 @@ const socialNavLinks = [
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
 
   const certifications = [
@@ -497,7 +471,7 @@ const dell_awards = [
     {
       name: "Sports Performance Pro",
       description:
-        "A responsive web application that enables easy access for coaches to track their athletes performances. The application allows coaches to search for athletes, view their performance, and track their progress. The application also allows coaches to view their profile and edit their profile. Design and development followed Agile methodology to improve the efficiency of the application and continous improvement. Technologies used: HTML, CSS, Javascript , jQuery, Bootstrap , DataTables , Async/Await and fetch API for the front-end. The back-end was developed using Flask framework , SQLAlchemy ORM, Postman and MySQL database. Application was delivered to client as part of the capstone project and among top 10 projects for Fall 2023 MS 611 Project Development course at University at Buffalo.",
+        "A responsive web application for coaches to track athletes' performances, search for athletes, view their progress, and edit profiles. Developed using HTML, CSS, JavaScript, jQuery, Bootstrap, DataTables, and Fetch API for the front-end, and Flask, SQLAlchemy ORM, Postman, and MySQL for the back-end. Followed Agile methodology for continuous improvement. Delivered to the client and recognized among the top 10 projects for the MS 611 Project Development course at the University at Buffalo.",
       tags: [
         {
           name: "HTML",
@@ -551,7 +525,7 @@ const dell_awards = [
     {
       name: "Retrieval Augmented Generation chatbot",
       description:
-        "A personal PDF assistant using Retrieval Augmented Generation (RAG) algorithm to extract information from PDF's and server as a knowledge base for your generative AI chat bot. I used all-mpnet-base-v2 for the tokenization of query and pdf text documents. Searching of similar documents is performed using Meta's FAISS library. The generator uses mistral-7b-instruct-v0.2 as the large language model for generation of answers. Scope for future would be to create a gradio chat application using API's to GPU's for retrieval of encodings and decoding of answers.",
+        "A personal PDF assistant using the Retrieval Augmented Generation (RAG) algorithm to extract information from PDFs and serve as a knowledge base for a generative AI chatbot. Utilized all-mpnet-base-v2 for tokenization, Meta's FAISS library for document similarity, and mistral-7b-instruct-v0.2 large language model for answer generation. Future scope includes creating a Gradio chat application with GPU support.",
       tags: [
         {
           name: "Generative AI",
@@ -593,7 +567,7 @@ const dell_awards = [
     {
       name: "Info-Extractor with Gemini pro",
       description:
-        "A web application that analyzes and extracts information from uploaded images using Google's latest version of Gemini. Users can upload an image and type in a prompt for either summarization , extraction or generation task. I used Gemini pro vision API from google for running the inference and deployed the application on streamlit's workspace. The site is live at https://gemini-information-extractor-9hvvirtqtzkvdt7ypmv9ju.streamlit.app/",
+        "A web application that analyzes and extracts information from uploaded images using Google's Gemini Pro Vision API. Users can upload an image and provide a prompt for summarization, extraction, or generation tasks. Deployed on Streamlit's workspace and live at https://gemini-information-extractor-9hvvirtqtzkvdt7ypmv9ju.streamlit.app/",
       tags: [
         {
           name: "Gemini Vision API",
@@ -619,7 +593,7 @@ const dell_awards = [
     {
       name: "Personal Portfolio Website",
       description:
-        "Development of personal portfolio website using React, Javascript, Tailwind CSS, and certain functionalities from Three.JS. Designed my 3d model ( gilf) NameCard file using Blender and Photoshop for intergration into the website using react-three-fiber and react-three-drei utilities.",
+        "My personal portfolio website developed using React, JavaScript, Tailwind CSS, and Three.JS functionalities. Designed a 3D model NameCard file using Blender and Photoshop, integrated into the website using react-three-fiber and react-three-drei utilities.",
       tags: [
         {
           name: "Javascript",
@@ -653,7 +627,7 @@ const dell_awards = [
     {
       name: "Sentiment analysis using RNN, bi-RNN and LSTM",
       description:
-        "Implementation of a sentiment analysis on IMDB Dataset using RNN, bi-RNN and LSTM. PyTorch was used as the framework for the project. The models were trained and tested on the IMDB Dataset using Googble Collab notebooks.",
+        "Implementation of sentiment analysis on the IMDB dataset using RNN, bi-RNN, and LSTM models. Utilized PyTorch framework and trained/tested the models on Google Colab notebooks.",
       tags: [
         {
           name: "Deep Learning",
@@ -675,7 +649,7 @@ const dell_awards = [
     {
       name: "ABT and GBN Transport protocol development",
       description:
-        "Simulation of ABT and GBN Transport protocol using C. The protocol was developed and tested using for various levels of loss compression ratios. Code was developed using the starter code provided by the course.",
+        "Simulation of ABT and GBN transport protocols using C programming language. Developed and tested the protocols for various levels of loss compression ratios.",
       tags: [
         {
           name: "C programming",
@@ -697,7 +671,7 @@ const dell_awards = [
     {
       name: "Multi-Client TCP Chat application",
       description:
-        "A TCP command line client server application using Socket Programming in C. Clients can connect ti the Server and send messages to clients and the server. Blocking and Broadcasting features was also included. Select system call was used on the server to keep track of incoming connections via file descriptors. Code was developed using the starter code provided by the course.",
+        "A command-line client-server chat application using TCP socket programming in C. Clients can connect to the server, send messages, and utilize blocking and broadcasting features. Implemented using the select system call to track incoming connections via file descriptors.",
       tags: [
         {
           name: "C programming",
@@ -719,7 +693,7 @@ const dell_awards = [
     {
       name: "Encryption Decryption using pycryptodomex",
       description:
-        "Development of scripting application to test the reposne time of encryption and decryption algorithms. The algorithms tested were RSA, AES and DES. A script was developed on Ubuntu for the same.",
+        "Scripted an application to test the response time of encryption and decryption algorithms (RSA, AES, and DSA) on Ubuntu using the Pycryptodomex library.",
       tags: [
         {
           name: "Python",
@@ -741,7 +715,7 @@ const dell_awards = [
     {
       name: "Standard Machine learning models",
       description:
-        "Implemented the standard machine learning models : Linear regression, Logistic regression, SVM, Naive Bayes Classifier, GMM  using scikit-learn .",
+        "Implementation of standard machine learning models, including Linear Regression, Logistic Regression, SVM, Naive Bayes Classifier, and GMM, using the Scikit-learn library in Python.",
       tags: [
         {
           name: "Sckit-Learn",
@@ -762,4 +736,4 @@ const dell_awards = [
     }, 
   ];
   
-  export {   dell_awards, certifications, socialNavLinks , navLinks, services, technologies, experiences, testimonials, projects };
+  export {   dell_awards, certifications, socialNavLinks , navLinks, services, technologies, experiences, projects };

@@ -96,10 +96,10 @@ const Contact = () =>  {
             <span className="text-white font-medium mb-4">Your Name</span>
             <input type="text" 
             name="name" 
-            placeholder="Whats your name?" 
+            placeholder="Please type in your name" 
             onChange={handleChange} 
             value={form.name} 
-            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"/>
+            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none italic font-medium"/>
           </label>
         
 
@@ -107,10 +107,10 @@ const Contact = () =>  {
             <span className="text-white font-medium mb-4">Your Email</span>
             <input type="email" 
             name="email" 
-            placeholder="Whats your email?" 
+            placeholder="Please type in your email" 
             onChange={handleChange} 
             value={form.email} 
-            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"/>
+            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none italic font-medium"/>
           </label>
         
 
@@ -118,10 +118,10 @@ const Contact = () =>  {
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea rows={7}  
             name="message" 
-            placeholder="Whats do you want to say?" 
+            placeholder="Please type in your message"  
             onChange={handleChange} 
             value={form.message} 
-            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"/>
+            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none italic font-medium"/>
           </label>
 
           <button type="submit" className="bg-tertiary py-3 px-8 outline-none text-white font-bold w-fit shadow-md shadow-primary rounded-xl">
