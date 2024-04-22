@@ -50,8 +50,8 @@ const Award = ({index, name, description, img_, pdf_,date_ }) => {
                         
                     </div>
                 </div>   
-                {name}
-                <span className='text-white px-1'>{description}</span>
+                <h3 className='text-white font-bold'>{name}</h3> 
+                <span className='text-secondary px-1'>{description}</span>
             </div>
 
 

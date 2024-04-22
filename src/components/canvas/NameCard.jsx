@@ -10,7 +10,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const NameCard = ({isMobile}) => {
-  const namecard = useGLTF("./desktop_pc/Name_card.glb");
+  const namecard = useGLTF("./desktop_pc/Namecard_.glb");
   return (
     <mesh>
       <hemisphereLight intensity={5.5}  groundColor="black"/>
