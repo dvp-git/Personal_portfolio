@@ -46,24 +46,7 @@ const About  = () =>
         // https://stackoverflow.com/questions/34932063/use-code-or-similar-tags-in-reactjs-using-jsx
         className='mt-3 text-secondary text-[17px] w-max-3xl leading-[30px]'>
          {`
-         "The variants prop in Framer Motion takes an object where each key is the name of a variant and each value is an object describing the state of the animation for that variant. The state object can contain properties like x, y, scale, rotate, backgroundColor, opacity, etc., and a transition object that describes how the animation should transition to this state.
-
-        "Here's the general structure of a variants object:          
-       
-                 {
-            variantName1: {
-                property1: value,
-                property2: value,
-                // ...
-                transition: {
-                // transition properties...
-                },
-            },
-            variantName2: {
-                // ...
-            },
-            // ...
-            } 
+            Throughout my career, I have worked on a variety of projects ranging from web development to machine learning. I have a passion for learning new things and I am always looking for opportunities to learn new technologies and expand my skillset. Below are some of the tags that would describe me.
         `}
         </motion.p>
 
