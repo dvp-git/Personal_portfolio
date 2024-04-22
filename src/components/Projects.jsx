@@ -86,14 +86,7 @@ const Projects = () => {
     <div className="w-full flex">
     <motion.p variants={fadeIn("", "",0.1, 1) } initial="hidden"
     animate="show" className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]">
-    It works in React apps because the code is transpiled before it's loaded into the
-browser. Therefore, you won't find that import statement in the final JavaScript
-code that's executed in the browser. Instead, during the transpilation process, the
-transpiler identifies the CSS import, removes it from the JavaScript file, and injects
-the CSS code (or an appropriate link to the potentially bundled and optimized CSS
-file) into the index.html file. You can confirm this by inspecting the rendered
-Document Object Model (DOM) content of the loaded web page in the browser.
-
+    It is essential to work on projects in order to experiment and learn new things. Below are some of the projects that I have worked on.
     </motion.p>
     </div>
 
