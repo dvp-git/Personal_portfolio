@@ -66,6 +66,22 @@ import coursera from "./certifications/coursera.png";
 import  view_ from "./certifications/view_.png";
 import download_ from "./certifications/download_.png";
 
+
+import award1 from "./awards/InspireAward1.1.png";
+import award2 from "./awards/InspireAward2.1.png";
+import award3 from "./awards/InspireAward3.1.png";
+import award4 from "./awards/InspireAward4.1.png";
+import award5 from "./awards/InspireAward5.1.png";
+
+import award1_pdf from "./awards/InspireAward1.pdf";
+import award2_pdf from "./awards/InspireAward2.pdf"
+import award3_pdf from "./awards/InspireAward3.pdf"
+import award4_pdf from "./awards/InspireAward4.pdf"
+import award5_pdf from "./awards/InspireAward5.pdf"
+
+
+import resume from "./Darryl_Resume.pdf"
+
 export {
   ai,
   logo,
@@ -121,4 +137,15 @@ export {
   coursera,
   download_,
   view_,
+  award1,
+award2,
+award3,
+award4,
+award5,
+award1_pdf,
+award2_pdf,
+award3_pdf,
+award4_pdf,
+award5_pdf,
+resume,
 };
