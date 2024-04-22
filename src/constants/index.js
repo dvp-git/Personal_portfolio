@@ -61,7 +61,15 @@ import {
   award3_pdf,
   award4_pdf,
   award5_pdf,
-  
+  machine_learning_img,
+  biLSTM_img,
+  gemini_img,
+  personal_website_img,
+  pycryptodomex_img,
+  rag_img,
+  socket_programming_img,
+  Sports_performance_img,
+  transport_protocol_img,
 } from "../assets";
   
   // Github icon
@@ -536,8 +544,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Sports_performance_img,
+      source_code_link: "https://github.com/dvp-git/Sports-Performance-Pro-MS611/",
+      online_link: '',
     },
     {
       name: "Retrieval Augmented Generation chatbot",
@@ -577,8 +586,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: rag_img,
+      source_code_link: "https://github.com/dvp-git/RAG_mistralai_chat_bot/",
+      online_link: '',
     },
     {
       name: "Info-Extractor with Gemini pro",
@@ -602,8 +612,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         }
       ],
-      image: tripguide,
-      source_code_link: "https://gemini-information-extractor-9hvvirtqtzkvdt7ypmv9ju.streamlit.app/",
+      image: gemini_img,
+      source_code_link: "https://github.com/dvp-git/gemini-information-extractor/",
+      online_link: 'https://gemini-information-extractor-9hvvirtqtzkvdt7ypmv9ju.streamlit.app/',
     },
     {
       name: "Personal Portfolio Website",
@@ -635,8 +646,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: personal_website_img,
+      source_code_link: "https://github.com/dvp-git/Personal_portfolio/",
+      online_link: 'http://darrylvasprabhu.me',
     },
     {
       name: "Sentiment analysis using RNN, bi-RNN and LSTM",
@@ -656,8 +668,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: biLSTM_img,
+      source_code_link: "https://github.com/dvp-git/NaturalLanguageProcessing/",
+      online_link: '',
     },
     {
       name: "ABT and GBN Transport protocol development",
@@ -677,8 +690,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: transport_protocol_img,
+      source_code_link: "https://github.com/dvp-git/Transport-protocol/",
+      online_link: '',
     },
     {
       name: "Multi-Client TCP Chat application",
@@ -698,8 +712,9 @@ const dell_awards = [
           color: "yellow-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: socket_programming_img,
+      source_code_link: "https://github.com/dvp-git/ModernNetworking-SocketProgramming/",
+      online_link: '',
     },
     {
       name: "Encryption Decryption using pycryptodomex",
@@ -719,29 +734,31 @@ const dell_awards = [
           color: "yellow-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pycryptodomex_img,
+      source_code_link: "https://github.com/dvp-git/computer-security/",
+      online_link: '',
     },
     {
-      name: "Car Booking database using PostgreSQL",
+      name: "Standard Machine learning models",
       description:
-        "Developed a Car Booking database system using PostgreSQL. In order to keep up with industry standards, the database was normalized to Boyce Codd Normal Form. All functional dependencies were taken into account for normalization.",
+        "Implemented the standard machine learning models : Linear regression, Logistic regression, SVM, Naive Bayes Classifier, GMM  using scikit-learn .",
       tags: [
         {
-          name: "PostgreSQL",
+          name: "Sckit-Learn",
           color: "yellow-text-gradient",
         },
         {
-          name: "SQL",
+          name: "Jupyter Notebook",
           color: "yellow-text-gradient",
         },
         {
-          name: "Database",
+          name: "Machine Learning",
           color: "yellow-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: machine_learning_img,
+      source_code_link: "https://github.com/dvp-git/MachineLearning/",
+      online_link: '',
     }, 
   ];
   

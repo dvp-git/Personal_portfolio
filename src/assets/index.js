@@ -74,13 +74,23 @@ import award4 from "./awards/InspireAward4.1.png";
 import award5 from "./awards/InspireAward5.1.png";
 
 import award1_pdf from "./awards/InspireAward1.pdf";
-import award2_pdf from "./awards/InspireAward2.pdf"
-import award3_pdf from "./awards/InspireAward3.pdf"
-import award4_pdf from "./awards/InspireAward4.pdf"
-import award5_pdf from "./awards/InspireAward5.pdf"
+import award2_pdf from "./awards/InspireAward2.pdf";
+import award3_pdf from "./awards/InspireAward3.pdf";
+import award4_pdf from "./awards/InspireAward4.pdf";
+import award5_pdf from "./awards/InspireAward5.pdf";
 
 
 import resume from "./Darryl_Resume.pdf"
+
+import machine_learning_img from './project_files/machine_learning_img.png';
+import biLSTM_img from './project_files/biLSTM_img.png';
+import gemini_img from './project_files/gemini_img.png';
+import personal_website_img from './project_files/personal_website_img.png';
+import pycryptodomex_img from './project_files/pycryptodomex_img.png';
+import rag_img from './project_files/rag_img.png';
+import socket_programming_img from './project_files/socket_programming_img.png';
+import Sports_performance_img from './project_files/Sports_performance_img.png';
+import transport_protocol_img from './project_files/transport_protocol_img.png';
 
 export {
   ai,
@@ -148,4 +158,13 @@ award3_pdf,
 award4_pdf,
 award5_pdf,
 resume,
+machine_learning_img,
+biLSTM_img,
+gemini_img,
+personal_website_img,
+pycryptodomex_img,
+rag_img,
+socket_programming_img,
+Sports_performance_img,
+transport_protocol_img,
 };

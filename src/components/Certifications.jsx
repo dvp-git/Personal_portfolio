@@ -23,7 +23,7 @@ const Certificate = ({index, name, description, img_, url_,date }) => {
                 max: 45,
                 scale:1,
                 speed:450,
-            }} className='bg-tertiary  shadow-yellow-400/40 rounded-2xl shadow-lg  w-[100%]  sm:w-[320px] gap-3  h-full p-1 justify-center  flex flex-wrap text-center text-secondary'>
+            }} className='bg-tertiary  shadow-yellow-400/40 rounded-2xl shadow-lg  w-[100%]  sm:w-[320px] gap-3  h-full p-1 justify-center  flex flex-wrap text-center'>
         
 
 
@@ -41,17 +41,16 @@ const Certificate = ({index, name, description, img_, url_,date }) => {
                     <div className="absolute inset-0 flex justify-end items-end m-2 card-img_hover ">
                         <div onClick={()=> window.open(url_, "_blank")} className="bg-tertiary w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                             <img src={view_} alt="View icon" className="w-1/2 h-1/2 object-contain"/>
-                            
-                        
                         </div>
-                            <a href={img_} download className="bg-tertiary w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+
+                    <a href={img_} download className="bg-tertiary w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                         <img src={download_} alt="Download icon" className="w-1/2 h-1/2 object-contain"/>
-                        </a>
+                    </a>
                         
                     </div>
-                </div>   
-                {name}
-                <span className='text-white px-1'>{description}</span>
+                </div >   
+                <h3 className='font-bold'>{name}</h3> 
+                <span className='text-secondary px-1'>{description}</span>
             </div>
 
 
