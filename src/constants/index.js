@@ -562,7 +562,7 @@ const dell_awards = [
       ],
       image: rag_img,
       source_code_link: "https://github.com/dvp-git/RAG_mistralai_chat_bot/",
-      online_link: '',
+      online_link: 'https://console.paperspace.com/dvp-git/notebook/ro0b8p0x8kny466/',
     },
     {
       name: "Info-Extractor with Gemini pro",
