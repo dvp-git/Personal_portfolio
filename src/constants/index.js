@@ -300,7 +300,7 @@ const socialNavLinks = [
         "Collaborating with cross-functional teams including product managers, performance engineers and senior accounts managers to resolve high priority issues.",
         "Performing analysis of slow IO read write operations due to CPU utilization, disk I/O latency, network latency, queue depth, multi-pathing, CRC errors.",
         "Root Cause Analysis of outages and business impact cases.",
-        "Debugging product issues with escalationg engineering team and engaging in product enhancements",
+        "Debugging product issues with escalation engineering team and engaging in product enhancements.",
         "Deliver training to new employees on Cloud Computing and Storage Area Network technologies.",
         "Publish knowledgebase and documentation on Dell Support Services for positive customer experience and business impact."
       ],
@@ -333,7 +333,7 @@ const socialNavLinks = [
     {
       name: "Intel Certified Developer - MLOps Professional",
       description:
-        "Learn the process of developing, deploying, and managing machine learning models in production",
+        "Learn the process of developing, deploying, and managing machine learning models in production.",
       img_ : intel,
         url_ : "https://www.credly.com/badges/76c48263-6607-4f19-9c56-f0f190869a2d/",
         date_: "December 31, 2023 - December 31, 2026",
@@ -405,7 +405,7 @@ const socialNavLinks = [
     {
       name: "Jovian: Data Structures and Algorithms in Python",
       description:
-        "Introduction to data structures and algorithms in Python",
+        "Introduction to data structures and algorithms in Python.",
       img_ : jovian,
         url_ : "https://jovian.ai/certificate/MFQTIOBSGA",
         date_: "April 27, 2021",
@@ -704,7 +704,7 @@ const dell_awards = [
           color: "yellow-text-gradient",
         },
         {
-          name: "css",
+          name: "Scripting",
           color: "yellow-text-gradient",
         },
       ],
@@ -718,7 +718,7 @@ const dell_awards = [
         "Implementation of standard machine learning models, including Linear Regression, Logistic Regression, SVM, Naive Bayes Classifier, and GMM, using the Scikit-learn library in Python.",
       tags: [
         {
-          name: "Sckit-Learn",
+          name: "Scikit-Learn",
           color: "yellow-text-gradient",
         },
         {
