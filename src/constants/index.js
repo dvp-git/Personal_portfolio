@@ -39,6 +39,7 @@ import {
   postman,
   postgresql,
   mysql,
+  azure_ai,
   azure,
   databricks,
   dellva,
@@ -323,9 +324,17 @@ const socialNavLinks = [
 
   const certifications = [
     {
+      name: "Microsoft Certified: Azure AI Fundamentals",
+      description:
+        "Learn the fundamentals of Artificial Intelligence workloads and machine learning services on Azure",
+      img_ : azure_ai,
+        url_ : "https://learn.microsoft.com/api/credentials/share/en-us/darrylvp/92BCA5780EB4903C?sharingId=5028B3A4CA1E8AB7",
+        date_: "June 17, 2024",
+    },
+    {
       name: "Microsoft Certified: Azure Fundamentals",
       description:
-        "A cloud computing certification that teaches you the fundamentals of the Azure cloud platform.",
+        "Learn the fundamentals of navigating the Microsoft Azure cloud platform.",
       img_ : azure,
         url_ : "https://learn.microsoft.com/api/credentials/share/en-us/darrylvp/6C91D218F66E876F?sharingId=5028B3A4CA1E8AB7",
         date_: "December 24, 2023",

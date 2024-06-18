@@ -52,6 +52,7 @@ import profile_pic from "./profile_pic.png";
 
 
 import azure from "./certifications/azure.png";
+import azure_ai from "./certifications/azure_ai.png";
 import databricks from "./certifications/databricks.png";
 import dellva from "./certifications/dellva.png";
 import dellvi from "./certifications/dellvi.png";
@@ -133,6 +134,7 @@ export {
   postman,
   postgresql,
   mysql,
+  azure_ai,
   azure,
   databricks,
   dellva,
