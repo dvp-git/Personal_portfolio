@@ -66,7 +66,7 @@ import postman_ from "./certifications/postman.png";
 import coursera from "./certifications/coursera.png";
 import  view_ from "./certifications/view_.png";
 import download_ from "./certifications/download_.png";
-
+import oracle_ from "./certifications/oracle_.png";
 
 import award1 from "./awards/InspireAward1.1.png";
 import award2 from "./awards/InspireAward2.1.png";
@@ -169,4 +169,5 @@ rag_img,
 socket_programming_img,
 Sports_performance_img,
 transport_protocol_img,
+oracle_,
 };

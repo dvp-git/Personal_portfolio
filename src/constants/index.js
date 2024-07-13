@@ -71,6 +71,7 @@ import {
   socket_programming_img,
   Sports_performance_img,
   transport_protocol_img,
+  oracle_,
 } from "../assets";
   
   // Github icon
@@ -324,9 +325,17 @@ const socialNavLinks = [
 
   const certifications = [
     {
+      name: "Oracle Certified: Professional Oracle Cloud Infrastructure Generative AI",
+      description:
+        "Understand Large Language Models, OCI Generative AI, RAG based chatbots, LangChain, and LLM applications.",
+      img_ : oracle_,
+        url_ : "https://catalog-education.oracle.com/pls/certview/sharebadge?id=4E7B9E0EB39AAAA83B2A4D87CAC75162F1FCA7FBF5857C582C64A40C3C9FC7E1",
+        date_: "July 12, 2024 - July 12, 2026",
+    },
+    {
       name: "Microsoft Certified: Azure AI Fundamentals",
       description:
-        "Learn the fundamentals of Artificial Intelligence workloads and machine learning services on Azure",
+        "Learn the fundamentals of Artificial Intelligence workloads and machine learning services on Azure.",
       img_ : azure_ai,
         url_ : "https://learn.microsoft.com/api/credentials/share/en-us/darrylvp/92BCA5780EB4903C?sharingId=5028B3A4CA1E8AB7",
         date_: "June 17, 2024",
