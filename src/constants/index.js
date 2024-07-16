@@ -399,7 +399,7 @@ const socialNavLinks = [
     {
       name: "Dell Technologies: Specialist - Implementation Engineer, VPLEX Version 2.0",
       description:
-        "Expertise in the deployment of Storage area netowrk solution VPLEX systems, including installation, configuration, troubleshooting and management architecture.",
+        "Expertise in the deployment of Storage area network solution VPLEX systems, including installation, configuration, troubleshooting and management architecture.",
       img_ : dellvi,
         url_ : "https://www.credly.com/badges/52b8bc79-2aa3-4ba7-bd34-ff4bd8eb1b44",
         date_: "January 29, 2019",
@@ -407,7 +407,7 @@ const socialNavLinks = [
     {
       name: "Dell Technologies: Specialist - Systems Administrator, VPLEX Version 2.0",
       description:
-        "Expertise in the deployment of Storage area netowrk solution VPLEX systems, including management and operations of VPLEX high availabilty storage solution.",
+        "Expertise in the deployment of Storage area network solution VPLEX systems, including management and operations of VPLEX high availabilty storage solution.",
       img_ : dellva,
         url_ : "https://www.credly.com/badges/822c878d-0662-41e1-853c-9e006e95342b",
         date_: "June 04, 2022",
