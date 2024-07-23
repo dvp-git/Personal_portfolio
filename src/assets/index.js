@@ -80,8 +80,8 @@ import award3_pdf from "./awards/InspireAward3.pdf";
 import award4_pdf from "./awards/InspireAward4.pdf";
 import award5_pdf from "./awards/InspireAward5.pdf";
 
-
-import resume from "./Darryl_Resume.pdf"
+// Darryl-Vas-Prabhu-Resume.pdf
+import resume from "./Darryl-Vas-Prabhu-Resume.pdf"
 
 import machine_learning_img from './project_files/machine_learning_img.png';
 import biLSTM_img from './project_files/biLSTM_img.png';
