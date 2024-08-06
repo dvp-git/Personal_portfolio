@@ -27,7 +27,7 @@ const Hero  = () =>
                     } else {
                         clearInterval(intervalId);
                     }
-                }, 10); // Speed value
+                }, 5); // Speed value
         
                 // Cleanup during function unmounts
                 return () => {
