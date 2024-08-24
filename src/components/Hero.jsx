@@ -10,7 +10,7 @@ const Hero  = () =>
     Following in my brother’s footsteps, I graduated with a bachelor’s degree in Electronics and communication and secured my position as a Technical Support Engineer at Dell Technologies (Dell EMC ). Learning never stops in the technology sector. I learned about how organizations at large scale deliver products and services to ease the lives of customers. Being in a customer-facing role, my job was to provide high-quality interactions and solve complex issues that arise in the infrastructure domain specifically in the Storage area network.  Solving Performance issues became my key strength and although time-consuming, I sought assistance from my seniors and the developers to provide the best service to customers. I strengthened my understanding of business impact, customer experience, and leadership and thus with teamwork became technically skilled. But my curious mind wouldn’t stop me from diving into the underlying code aspects of technology. I taught myself Python and began automating tasks with Python scripts to ease my day-to-day job. It was the first time I started using code to solve issues. \n
     I decided to increase my development skills and so I went on to pursue my Master’s in Computer Science at the University at Buffalo. I will forever be grateful to the University for instilling in me the confidence to never stop learning and growing. I developed my coding skills through various projects in Python, JavaScript, and even Machine learning. I developed a keen interest in generative AI after taking courses on Machine learning and NLP. “AI” was once a buzzword to me, but I’m glad that I understand what goes on under the hood.  A couple of my projects are showcased below. Developing this portfolio project required that I learn React and certain functionalities from three-js, as well as Blender and Photoshop for the interactive namecard. \n
 
-    In my free time, I like to listen and sing to the tunes of Beatles to Linkin Park. I also like playing the guitar and watching documentaries about the cosmos.
+    In my free time, I like to listen and sing to the tunes of Beatles, Pink Floyd, and some good old country music. I also like playing the guitar and watching documentaries about the cosmos.
     To reiterate, you can learn anything you set your mind to. All it takes is a little patience and time. 
     I hope you enjoy my portfolio. Feel free to message me. I'd love to connect!
     `}`
@@ -27,7 +27,7 @@ const Hero  = () =>
                     } else {
                         clearInterval(intervalId);
                     }
-                }, 10); // Speed value
+                }, 5); // Speed value
         
                 // Cleanup during function unmounts
                 return () => {
