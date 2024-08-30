@@ -284,7 +284,7 @@ const socialNavLinks = [
       company_name: "Univeristy at Buffalo, The State University of New York",
       icon: ubuffalo,
       iconBg: "#383E56",
-      date: "Aug 2022 - Feb 2024",
+      date: "Aug 2022 - Dec 2023",
       url_ : "https://www.buffalo.edu/",
       points: [
         "Design and develop 'Sports workout' web application using Web Technologies HTML, CSS, Javascript, Figma, Bootstrap, Flask, MySQL and AWS hosting for tracking of workout by Coaches to Athletes.",
