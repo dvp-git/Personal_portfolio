@@ -9,7 +9,6 @@ import {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -72,6 +71,8 @@ import {
   Sports_performance_img,
   transport_protocol_img,
   oracle_,
+  docker,
+  docker_,
 } from "../assets";
   
   // Github icon
@@ -254,6 +255,10 @@ const socialNavLinks = [
                 icon: git,
               },
               {
+                name: "Docker",
+                icon: docker_,
+              },
+              {
                 name: "Wireshark"
               },
               { 
@@ -324,6 +329,14 @@ const socialNavLinks = [
   
 
   const certifications = [
+    {
+      name: "Docker Foundations Professional Certificate",
+      description:
+      "Learn to containerize your applications using Docker and docker compose.",
+      img_ : docker,
+        url_ : " https://www.linkedin.com/learning/certificates/298de0e02d469237f22e785ad51094d0fffa6eac61100e3976bd31b70996fb3e?trk=share_certificate",
+        date_: "September 09, 2024",
+    },
     {
       name: "Oracle Certified: Professional Oracle Cloud Infrastructure Generative AI",
       description:

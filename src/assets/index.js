@@ -6,7 +6,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import docker_ from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -67,6 +67,7 @@ import coursera from "./certifications/coursera.png";
 import  view_ from "./certifications/view_.png";
 import download_ from "./certifications/download_.png";
 import oracle_ from "./certifications/oracle_.png";
+import docker from "./certifications/docker.png";
 
 import award1 from "./awards/InspireAward1.1.png";
 import award2 from "./awards/InspireAward2.1.png";
@@ -104,6 +105,7 @@ export {
   menu,
   close,
   css,
+  docker_,
   docker,
   figma,
   git,
