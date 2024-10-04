@@ -203,7 +203,10 @@ const socialNavLinks = [
             icon: css,
             },
             {
-              name: "jQuery",
+              name: "Node JS",
+            },
+            {
+              name: "Express JS",
             }
             ,{
             name: "SQLalchemy",
@@ -264,22 +267,23 @@ const socialNavLinks = [
               { 
                 name:"Deep Learning",
               },
-              {name: "Code Debugging"},
-
               {
-                name: "LLM",
+                name:"Data Structures",
               },
               {
-              name: "Storage Network",
+                name:"Algorithms",
+              },
+              {name: "Debugging"},
+              {
+                name: "LLM/RAG",
+              },
+              {
+              name: "Virtualization",
             },
             {
-              name: "API"
+              name: "REST API"
             },
-            { name : "Dcoumentation"},
-            {
-              name: "Teamwork"
-            }
-
+            { name : "Documentation"}
             ]
           };
   
