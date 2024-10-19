@@ -73,6 +73,7 @@ import {
   oracle_,
   docker,
   docker_,
+  copilot_,
 } from "../assets";
   
   // Github icon
@@ -333,6 +334,14 @@ const socialNavLinks = [
   
 
   const certifications = [
+    {
+      name: "GitHub Certified: GitHub Copilot",
+      description:
+      "Learn to utilize AI-driven code completion tool across various programming languages and optimize software development workflows effectively.",
+      img_ : copilot_,
+        url_ : "https://www.credly.com/badges/682d99ad-3a8e-43db-aa9e-ea13c8d5340b/public_url",
+        date_: "October 19, 2024",
+    },
     {
       name: "Docker Foundations Professional Certificate",
       description:
