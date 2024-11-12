@@ -88,6 +88,7 @@ import resume from "./Darryl-Vas-Prabhu-Resume.pdf";
 import machine_learning_img from './project_files/machine_learning_img.png';
 import biLSTM_img from './project_files/biLSTM_img.png';
 import gemini_img from './project_files/gemini_img.png';
+import tabjump_img from './project_files/tabjump_img.png';
 import personal_website_img from './project_files/personal_website_img.png';
 import pycryptodomex_img from './project_files/pycryptodomex_img.png';
 import rag_img from './project_files/rag_img.png';
@@ -166,6 +167,7 @@ resume,
 machine_learning_img,
 biLSTM_img,
 gemini_img,
+tabjump_img,
 personal_website_img,
 pycryptodomex_img,
 rag_img,

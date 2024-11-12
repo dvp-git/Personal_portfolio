@@ -64,6 +64,7 @@ import {
   machine_learning_img,
   biLSTM_img,
   gemini_img,
+  tabjump_img,
   personal_website_img,
   pycryptodomex_img,
   rag_img,
@@ -607,6 +608,32 @@ const dell_awards = [
       image: rag_img,
       source_code_link: "https://github.com/dvp-git/RAG_mistralai_chat_bot/",
       online_link: 'https://console.paperspace.com/dvp-git/notebook/ro0b8p0x8kny466/',
+    },
+    {
+      name: "Tab-Jump: A chrome/edge extension that streamlines navigating through tabs",
+      description:
+        "A Chrome/Edge extension that enhances user productivity by allowing users to quickly jump through tabs using search terms. It also provides a one-click solution to export all open tabs into a separate HTML file.",
+      tags: [
+        {
+          name: "Browser Extension Development",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Google Chrome Extension API",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "User Productivity",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Web Development",
+          color: "yellow-text-gradient",
+        }
+      ],
+      image: tabjump_img,
+      source_code_link: "https://github.com/dvp-git/Tab-Jump",
+      online_link: '',
     },
     {
       name: "Info-Extractor with Gemini pro",
