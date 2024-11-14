@@ -693,7 +693,7 @@ const dell_awards = [
       ],
       image: personal_website_img,
       source_code_link: "https://github.com/dvp-git/Personal_portfolio/",
-      online_link: 'https://darrylvasprabhu.me/',
+      online_link: 'https://darrylvasprabhu.works/',
     },
     {
       name: "Sentiment analysis using RNN, bi-RNN and LSTM",
