@@ -211,7 +211,7 @@ const socialNavLinks = [
               name: "Express JS",
             }
             ,{
-            name: "SQLalchemy",
+            name: "SQLAlchemy",
           },
           {
             name: "React JS",
@@ -222,7 +222,7 @@ const socialNavLinks = [
               // icon: sklearn,
             },  
             {
-              name: "Numpy",
+              name: "NumPy",
               // icon: sklearn,
             },
             {
@@ -292,13 +292,13 @@ const socialNavLinks = [
   const experiences = [
     {
       title: "Master of Science in Computer Science and Engineering",
-      company_name: "Univeristy at Buffalo, The State University of New York",
+      company_name: "University at Buffalo, The State University of New York",
       icon: ubuffalo,
       iconBg: "#383E56",
       date: "Aug 2022 - Dec 2023",
       url_ : "https://www.buffalo.edu/",
       points: [
-        "Design and develop 'Sports workout' web application using Web Technologies HTML, CSS, Javascript, Figma, Bootstrap, Flask, MySQL and AWS hosting for tracking of workout by Coaches to Athletes.",
+        "Design and develop 'Sports workout' web application using Web Technologies HTML, CSS, JavaScript, Figma, Bootstrap, Flask, MySQL and AWS hosting for tracking of workout by Coaches to Athletes.",
         "Continuous exposure to deep learning algorithms RNN, LSTM, GRU, CNN, GAN, Transformer models, BERT, GPT-2, Sentence Transformers."
       ],
     },
@@ -418,7 +418,7 @@ const socialNavLinks = [
     {
       name: "Dell Technologies: Associate - Information Storage and Management Version 3.0",
       description:
-        "Understanding of technology behdind data center infrastructure and services including business continuity, data storage, and data management.",
+        "Understanding of technology behind data center infrastructure and services including business continuity, data storage, and data management.",
       img_ : ism,
         url_ : "https://www.credly.com/badges/33136a81-b03a-4eca-a0c0-776b65776dc0",
         date_: "July 29, 2017",
@@ -434,7 +434,7 @@ const socialNavLinks = [
     {
       name: "Dell Technologies: Specialist - Systems Administrator, VPLEX Version 2.0",
       description:
-        "Expertise in the deployment of Storage area network solution VPLEX systems, including management and operations of VPLEX high availabilty storage solution.",
+        "Expertise in the deployment of Storage area network solution VPLEX systems, including management and operations of VPLEX high availability storage solution.",
       img_ : dellva,
         url_ : "https://www.credly.com/badges/822c878d-0662-41e1-853c-9e006e95342b",
         date_: "June 04, 2022",
@@ -442,7 +442,7 @@ const socialNavLinks = [
     {
       name: "freeCodeCamp: Data Analysis with Python",
       description:
-        "Understanding process involved in data preparation and transformation using Python, Numpy and Pandas.",
+        "Understanding process involved in data preparation and transformation using Python, NumPy and Pandas.",
       img_ : freecodecamp,
         url_ : "https://www.freecodecamp.org/certification/darryl_vp/data-analysis-with-python-v7",
         date_: "October 14, 2021",
@@ -610,7 +610,7 @@ const dell_awards = [
       online_link: 'https://console.paperspace.com/dvp-git/notebook/ro0b8p0x8kny466/',
     },
     {
-      name: "Tab-Jump: A chrome/edge extension that streamlines navigating through tabs",
+      name: "Tab-Jump: A chrome/edge extension that streamlines navigating through tabs.",
       description:
         "A Chrome/Edge extension that enhances user productivity by allowing users to quickly jump through tabs using search terms. It also provides a one-click solution to export all open tabs into a separate HTML file.",
       tags: [
@@ -698,7 +698,7 @@ const dell_awards = [
     {
       name: "Sentiment analysis using RNN, bi-RNN and LSTM",
       description:
-        "Implementation of sentiment analysis on the IMDB dataset using RNN, bi-RNN, and LSTM models. Utilized PyTorch framework and trained/tested the models on Google Colab notebooks.",
+        "Implementation of sentiment analysis on the IMDB dataset using RNN, bi-RNN, and LSTM models. Utilized PyTorch framework and trained/tested the models on Google Collab notebooks.",
       tags: [
         {
           name: "Deep Learning",
@@ -718,7 +718,7 @@ const dell_awards = [
       online_link: '',
     },
     {
-      name: "ABT and GBN Transport protocol development",
+      name: "ABT and GBN Transport Protocol development",
       description:
         "Simulation of ABT and GBN transport protocols using C programming language. Developed and tested the protocols for various levels of loss compression ratios.",
       tags: [
@@ -784,7 +784,7 @@ const dell_awards = [
       online_link: '',
     },
     {
-      name: "Standard Machine learning models",
+      name: "Standard Machine Learning models",
       description:
         "Implementation of standard machine learning models, including Linear Regression, Logistic Regression, SVM, Naive Bayes Classifier, and GMM, using the Scikit-learn library in Python.",
       tags: [
