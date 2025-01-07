@@ -69,7 +69,7 @@ import download_ from "./certifications/download_.png";
 import oracle_ from "./certifications/oracle_.png";
 import docker from "./certifications/docker.png";
 import copilot_ from "./certifications/copilot_.png";
-
+import gh_foundations_ from "./certifications/gh_foundations_.png";
 import award1 from "./awards/InspireAward1.1.png";
 import award2 from "./awards/InspireAward2.1.png";
 import award3 from "./awards/InspireAward3.1.png";
@@ -176,4 +176,5 @@ Sports_performance_img,
 transport_protocol_img,
 oracle_,
 copilot_,
+gh_foundations_,
 };

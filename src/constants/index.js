@@ -75,6 +75,7 @@ import {
   docker,
   docker_,
   copilot_,
+  gh_foundations_,
 } from "../assets";
   
   // Github icon
@@ -335,6 +336,14 @@ const socialNavLinks = [
   
 
   const certifications = [
+    {
+      name: "GitHub Certified: GitHub Foundations",
+      description:
+      "Learn to code effectively using Git and GitHub to manage code repositories, commits, branching, markdowns, and project management features.",
+      img_ : gh_foundations_,
+        url_ : "https://www.credly.com/badges/f19e25d7-7ca1-4446-ad28-0c3a598826d6/public_url",
+        date_: "January 7, 2025",
+    },
     {
       name: "GitHub Certified: GitHub Copilot",
       description:
