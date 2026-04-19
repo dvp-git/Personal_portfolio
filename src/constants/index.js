@@ -253,12 +253,10 @@ const socialNavLinks = [
                 name: "Azure"
               },
               {
-                name: "Postman",
-                icon: postman,
+                name: "Datadog",
               },
               {
-                name: "Git",
-                icon: git,
+                name: "Kubernetes",
               },
               {
                 name: "Docker",
@@ -271,7 +269,7 @@ const socialNavLinks = [
                 name:"Deep Learning",
               },
               {
-                name:"Data Structures",
+                name:"Applicatin Performance",
               },
               {
                 name:"Algorithms",
@@ -281,12 +279,12 @@ const socialNavLinks = [
                 name: "LLM/RAG",
               },
               {
-              name: "Virtualization",
+              name: "Network Monitoring",
             },
             {
               name: "REST API"
             },
-            { name : "Documentation"}
+            { name : "Real-time Analytics"},
             ]
           };
   
@@ -296,11 +294,11 @@ const socialNavLinks = [
       company_name: "University at Buffalo, The State University of New York",
       icon: ubuffalo,
       iconBg: "#383E56",
-      date: "Aug 2022 - Dec 2023",
+      date: "Aug 2022 - Feb 2025",
       url_ : "https://www.buffalo.edu/",
       points: [
         "Design and develop 'Sports workout' web application using Web Technologies HTML, CSS, JavaScript, Figma, Bootstrap, Flask, MySQL and AWS hosting for tracking of workout by Coaches to Athletes.",
-        "Continuous exposure to deep learning algorithms RNN, LSTM, GRU, CNN, GAN, Transformer models, BERT, GPT-2, Sentence Transformers."
+        "Continuous exposure to deep learning algorithms RNN, LSTM, GRU, CNN, GAN, Transformer models, BERT, GPT-2, Sentence Transformers.","Improved a research RAG chatbot and built a high-performance Chrome extension, boosting retrieval accuracy and productivity (30%) while applying advanced LLM and transformer concepts."
       ],
     },
     {
